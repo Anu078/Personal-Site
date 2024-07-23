@@ -1,0 +1,239 @@
+.container2{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero{
+    height: 700px;
+    width: 100%;
+    background-image: url(./background.png);
+    margin-bottom: 0px;
+}
+
+.hero h1 , p {
+    display: flex;
+    justify-content: center;
+}
+
+span , .deco{
+    text-decoration: underline;
+}
+
+.hero h1{
+    font-family: "Sacramento", cursive;
+    font-size: 90px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #174B31;
+}
+
+.hero p{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    padding-top: 0px;
+    line-height: 45px;
+    letter-spacing: -1.5px;
+    color: #174B31;
+}
+
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.one :nth-child(1){
+    margin-top: 90px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+
+}
+
+.one :nth-child(2){
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-top: 30px;
+    color:#449b6e;
+}
+
+.one :nth-child(3){
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 32px;
+    text-align: center;
+}
+
+.tile-image {
+    height: 200px;
+    float: left;
+    margin-right: 50px;
+    border-radius: 5px;
+}
+
+.card {
+    width: 45%;
+}
+  
+.left {
+    float: left;
+}
+
+
+#two{
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 40px;
+    justify-content: center;
+    color: #88bba1;
+
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chilli{
+    height: 120px;
+    padding-right: 45px;
+    padding-left: 35px;
+}
+
+#container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title{
+    color: #4e916e;
+}
+
+@media (max-width: 890px){
+    .card {
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+      }
+    
+      .card img {
+        margin-bottom: 10px;
+        width: 100%;
+        height: 100%;
+        display: inline;
+        object-fit: cover;
+      }
+}
+
+#container :nth-child(1){
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    color: #88bba1;
+}
+
+#container :nth-child(2){
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 19px;
+    color: #4e916e;
+}
+
+#container :nth-child(3){
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 19px;
+    line-height: 32px;
+    text-align: center;
+}
+
+#button{
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color:#BEE8D3;
+    color: #174B31;
+    text-decoration: none;
+}
+
+.tata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: #BEE8D3;
+}
+
+#none{
+    text-decoration: none;
+    margin: 10px 10px;
+    color: #174B31;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+}
+/* .two :nth-child(1){
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+} */
+
+/* .two :nth-child(2){
+    margin-top: 50px;
+    height: 200px;
+    width: 200px;
+}
+
+.two :nth-child(3){
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    font-style: normal;
+}
+
+.two :nth-child(4){
+        font-family: "Merriweather", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: center;
+} */
+
+
