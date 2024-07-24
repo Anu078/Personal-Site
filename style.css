@@ -47,14 +47,16 @@ span , .deco{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .one :nth-child(1){
+    padding-top: 0px;
     margin-top: 30px;
     height: 200px;
     width: 200px;
     border-radius: 50%;
-
 }
 
 .one :nth-child(2){
